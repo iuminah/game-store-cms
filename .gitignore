@@ -80,8 +80,7 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+
 
 ############################
 # Node.js
@@ -113,3 +112,4 @@ exports
 dist
 build
 .strapi-updater.json
+package-lock.json
