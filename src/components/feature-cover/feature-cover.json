@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_feature_cover_feature_covers",
+  "info": {
+    "displayName": "FeatureCover",
+    "icon": "splotch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

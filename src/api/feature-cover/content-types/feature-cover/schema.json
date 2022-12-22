@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "feature_covers",
+  "info": {
+    "singularName": "feature-cover",
+    "pluralName": "feature-covers",
+    "displayName": "FeatureCover"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FeatureCover": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature-cover.feature-cover"
+    }
+  }
+}
