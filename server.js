@@ -1,7 +1,8 @@
 // path: `./server.js`
 
+const port = process.env.PORT;
+console.log("port :", port);
 const strapi = require("@strapi/strapi");
-strapi().start();
 
 // const http = require("http");
 
@@ -17,3 +18,8 @@ strapi().start();
 // server.listen(port, hostname, () => {
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
+
+server.listen(port, () => {
+  strapi().start();
+  console.log("Server is running on port : " + port);
+});
