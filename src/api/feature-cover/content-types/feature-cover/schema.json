@@ -4,7 +4,8 @@
   "info": {
     "singularName": "feature-cover",
     "pluralName": "feature-covers",
-    "displayName": "FeatureCover"
+    "displayName": "FeatureCover",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

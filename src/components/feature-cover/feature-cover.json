@@ -21,7 +21,10 @@
         "audios"
       ]
     },
-    "link": {
+    "slug": {
+      "type": "string"
+    },
+    "brief": {
       "type": "string"
     }
   }
