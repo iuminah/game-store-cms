@@ -6,7 +6,8 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid", // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
       providerOptions: {
-        apiKey: env("SENDGRID_API_KEY"),
+        apiKey:
+          "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",
       },
       settings: {
         defaultFrom: "minahgamestore@gmail.com",
