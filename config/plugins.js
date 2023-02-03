@@ -1,11 +1,11 @@
 // path: ./config/plugins.js
 
 module.exports = ({ env }) => {
-  const _1 = "SG.nkFDAmg";
-  const _2 = "fRuWNT15yINVoMg.S";
-  const _3 = "3OPlC6EHLFt_xN-mJBvSuqt";
-  const _4 = "PRvNeJrvU";
-  const _5 = "YyYa-Xd7as";
+  const _1 = "SG.ycf77_";
+  const _2 = "jATAeEvzZm";
+  const _3 = "nRZgiA.HQpNtU_";
+  const _4 = "LEySIVrrCuKd3GCAxd2";
+  const _5 = "YywLHrieaTmZiujIDRw";
 
   const yek = _1 + _2 + _3 + _4 + _5;
 
@@ -18,9 +18,9 @@ module.exports = ({ env }) => {
           apiKey: yek,
         },
         settings: {
-          defaultFrom: "minah67899@gmail.com",
-          defaultReplyTo: "minah67899@gmail.com",
-          testAddress: "minah67899@gmail.com",
+          defaultFrom: "minahgamestore@gmail.com",
+          defaultReplyTo: "minahgamestore@gmail.com",
+          testAddress: "minahgamestore@gmail.com",
         },
       },
     },
