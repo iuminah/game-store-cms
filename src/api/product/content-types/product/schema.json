@@ -21,6 +21,34 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "newProduct": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "prices.prices"
+    },
+    "brief": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "string"
     }
   }
 }
