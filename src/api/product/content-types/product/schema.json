@@ -22,18 +22,8 @@
     "description": {
       "type": "richtext"
     },
-    "newProduct": {
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
-    "prices": {
-      "type": "component",
-      "repeatable": false,
-      "component": "prices.prices"
-    },
     "brief": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "cover": {
@@ -48,7 +38,31 @@
       ]
     },
     "button": {
-      "type": "string"
+      "type": "string",
+      "default": "Xem thêm"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "category"
+    },
+    "platforms": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::platform.platform",
+      "inversedBy": "operatingSystem"
+    },
+    "prices": {
+      "type": "decimal",
+      "default": 0,
+      "required": false,
+      "min": 0
+    },
+    "discount": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
     }
   }
 }

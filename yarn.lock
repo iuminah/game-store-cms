@@ -3256,7 +3256,7 @@ axios@0.27.2:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
 
-axios@^0.26.0:
+axios@^0.26.0, axios@^0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
   integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
@@ -8794,7 +8794,7 @@ react-helmet@^6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
-react-intl@5.25.1:
+react-intl@5.25.1, react-intl@^5.25.1:
   version "5.25.1"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-5.25.1.tgz#68a73aefc485c9bf70062381ae7f6f4791680879"
   integrity sha512-pkjdQDvpJROoXLMltkP/5mZb0/XqrqLoPGKUCfbdkP8m6U9xbK40K51Wu+a4aQqTEvEK5lHBk0fWzUV72SJ3Hg==
@@ -9822,6 +9822,14 @@ std-env@^3.0.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
+
+strapi-plugin-vercel-deploy@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-vercel-deploy/-/strapi-plugin-vercel-deploy-1.4.0.tgz#bf4f5c5fde635c48d6327a3e99732a07e495e718"
+  integrity sha512-hUwUM3WjIsFRSlIU9SMGBFc7UOpoyPdW/yEhFtUdlFIb5G2+tALgS/1kWXVnP61VWb1nsqqjtNoxCtxsif9FvA==
+  dependencies:
+    axios "^0.26.1"
+    react-intl "^5.25.1"
 
 stream-browserify@^3.0.0:
   version "3.0.0"

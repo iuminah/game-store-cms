@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "new_games",
+  "info": {
+    "singularName": "new-game",
+    "pluralName": "new-games",
+    "displayName": "NewGame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}
