@@ -24,6 +24,9 @@ module.exports = ({ env }) => {
         },
       },
     },
+    // "google-auth": {
+    //   enabled: true,
+    // },
     "vercel-deploy": {
       enabled: true,
       config: {
