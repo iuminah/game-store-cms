@@ -26,6 +26,12 @@ module.exports = ({ env }) => {
     },
     "vercel-deploy": {
       enabled: true,
+      config: {
+        deployHook:
+          "https://api.vercel.com/v1/integrations/deploy/prj_8bctO86EhKWDlvcmflqGrjI1sK4L/LZGIt2IYYG",
+        apiToken: "5q8hL6nk7zXhgixyKwAqilkF",
+        appFilter: "MinahGameStoreCMS",
+      },
     },
     // ...
   };
