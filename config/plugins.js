@@ -24,6 +24,15 @@ module.exports = ({ env }) => {
         },
       },
     },
+    upload: {
+      config: {
+        providerOptions: {
+          localServer: {
+            maxage: 300000,
+          },
+        },
+      },
+    },
     // "google-auth": {
     //   enabled: true,
     // },
@@ -37,6 +46,7 @@ module.exports = ({ env }) => {
         roles: ["strapi-super-admin"],
       },
     },
+
     // ...
   };
 };
