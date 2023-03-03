@@ -30,8 +30,7 @@
         "files",
         "videos",
         "audios"
-      ],
-      "private": true
+      ]
     }
   }
 }

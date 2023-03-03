@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_minimum_minimums",
+  "info": {
+    "displayName": "Minimum",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OS": {
+      "type": "string"
+    },
+    "Processor": {
+      "type": "string"
+    },
+    "Memory": {
+      "type": "string"
+    },
+    "Storage": {
+      "type": "string"
+    },
+    "Graphics": {
+      "type": "string"
+    }
+  }
+}

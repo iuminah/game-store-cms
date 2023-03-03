@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_specifications_recommendeds",
+  "info": {
+    "displayName": "Recommended"
+  },
+  "options": {},
+  "attributes": {
+    "OS": {
+      "type": "string"
+    },
+    "Processor": {
+      "type": "string"
+    },
+    "Memory": {
+      "type": "string"
+    },
+    "Storage": {
+      "type": "string"
+    },
+    "Graphics": {
+      "type": "string"
+    }
+  }
+}
